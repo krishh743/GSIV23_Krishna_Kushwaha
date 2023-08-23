@@ -18,9 +18,9 @@ const Sidebar = ({open, toggleDrawer}) => {
                     px: [1],
                 }}
             >
-                {/* <IconButton onClick={toggleDrawer}>
+                <IconButton onClick={toggleDrawer}>
                     <ChevronLeftIcon />
-                </IconButton> */}
+                </IconButton>
             </Toolbar>
             <Divider />
             <List component="nav">
